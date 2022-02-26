@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,200&family=Quicksand:wght@300;400&family=Redressed&display=swap');
+
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gideon Roman', cursive;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #35515559;
+    border: 2px #f81b1b ;
+    color: rgb(240, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1)
+}
+
+.intro-text {
+    background-color: #1e288148;
+    color: rgb(16, 35, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250;
+    padding: 0 15rem;
+}
+
+.packaging-image {
+    background-color: rgb(94, 83, 21);
+    background-image: url(../img/img2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250;
+    clip-path: polygon(50% 0%, 73% 35%, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 27% 35%);
+
+}
+
+.packaging-text {
+    background-color: #a05d1e;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250;
+    padding: 0 15rem;
+}
+
+.packaging-image__text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image__text a {
+    background-color: #a05d1e57;
+    border: 2px #f81b1b ;
+    color: rgb(240, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1)
+}
+
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250;
+
+}
+
+.tutorials-image__text {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image__text a {
+    background-color: #eddccb48;
+    border: 2px #f81b1b ;
+    color: rgb(240, 255, 255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1)
+}
+
+
+
+
+
+
+
+
+.footer {
+    height: 100px;
+    background-color: rgba(43, 87, 153, 0.726);
+    color: rgb(0, 0, 0);
+    padding-top: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+
+}
+
+.footer ul li a {
+    color: #c4c0ba96;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+transform: scale(1.5);
+}
